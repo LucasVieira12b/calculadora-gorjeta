@@ -116,6 +116,12 @@ main {
     input:focus {
         outline: 2px solid var(--topaz);
     }
+
+    button:hover {
+        background: var(--topaz);
+        cursor: pointer;
+        transition: .5s;
+    }
   }
 }
 
