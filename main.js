@@ -31,7 +31,7 @@ function receiveTipPercentageValue(value) {
     buttonSelected = document.querySelector(`#button-${value}`)
     buttonSelected.classList.add("button-selected")
 
-    calcule
+    calcule ()
 }
 
 function receiveCustomTipPercentageValue() {
